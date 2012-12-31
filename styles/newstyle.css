@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Main menu
+------------------------------------------*/
+#coolMenu {
+    font-family: Arial;
+    font-size: 12px;
+    background: #228c4c;
+}
+#coolMenu > li > a {
+    color: #fff;
+    font-weight: bold;
+}
+#coolMenu > li:hover > a {
+    background: #228c4c;
+    color: #000;
+}
+ 
+/* Submenu
+------------------------------------------*/
+#coolMenu ul {
+    background: #f09d28;
+}
+#coolMenu ul li a {
+    color: #000;
+}
+#coolMenu ul li:hover a {
+    background: #ffc97c;
+}
+
+#container {
+	overflow: hidden;
+	background-color: #228c4c;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	letter-spacing: normal;
+	text-align: center;
+	vertical-align: middle;
+	word-spacing: normal;
+	font-size: 36px;
+	}
+#main_image {
+	background-image: url(../images/IMG.PNG);
+	
+}
+
+#center_column, #right_column {
+    margin-left: 10px;
+}
+h1 {
+	font-family: "segoe Ui";
+	font-size: 54px;
+	margin: 0;
+	float: left;
+	font-weight: lighter;
+}
+#header {
+	color: #83BC86;
+	background-color: #228c4c;
+	height: 50px;
+	position: relative;
+	list-style-position: inside;
+	vertical-align: baseline;
+	font-size: 36px;
+	margin-left:auto;
+	margin-right:auto;
+	text-shadow: 0px -1px 0px rgba(49, 49, 49, 0.9);
+	margin-bottom: 15px;
+}
+body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: Black;
+	background-color: #fff;
+	margin: 0px;
+}
+#header p {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 30px;
+    font-variant: small-caps;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 15px;
+}
+#header a {
+    font-size: 20px;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    width: 100px;
+}
+#header ul li {
+    float: left;
+}
+#header ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+#main_text {
+	background-color: #FFF;
+	width: 300px;
+	position: absolute;
+	right: 162px;
+	bottom: 180px;
+}
+#main_image #play {
+	height: 34px;
+	width: 144px;
+	position: absolute;
+	left: 507px;
+	top: 199px;
+	color: White;
+	background-color: DeepSkyBlue;
+}
+
+#game {
+	font-size: 24px;
+	color: Green;
+}

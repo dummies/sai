@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Addiction</title>
+<script>
+ window.onload = function() {
+	  init();
+ };
+</script>
+<script src="js/gameplay.js" ></script>
+<link href="styles/coolMenu.css" rel="stylesheet" type="text/css" media="screen"/>
+<link href="styles/play.css" rel="stylesheet" type="text/css">
+<script src="js/fb.js"> </script>
+<script src="//connect.facebook.net/en_US/all.js"></script>
+<link href="styles/check_cs6.css" rel="stylesheet" type="text/css">
+<link href="styles/table.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+ <div style="background-color:#E7EBF2;height:auto;">
+	<div class="container_16" style="background-color:#004080; height:90px; opacity:0.8" >
+    <a href="http://www.wordtrix.in/">
+        <img style="background-color:transparent;float:left" src="images/logo-final.png">
+    </a>
+		<div align="right" style="margin-left:800;background-color:#E7EBF2;height:700;">  
+		<ul id="coolMenu" style="margin-top:40px;">
+			<li id="user-info"><a href="#" onClick="loginUser();">login</a></li>
+			<li>
+				<a href="#">Settings</a>
+				<ul class="noJS">
+					<li><a href="#">profile</a></li>
+					<li><a href="#">others</a></li>
+					<li id="logout"><a href="#" onClick="logoutUser();">logout</a></li>
+				</ul>
+			</li>
+		</ul>
+		</div>
+        <div style="float:right;">
+        <img id="user_photo" height="50px" width="50px;" style="padding:30px;margin-right:90px;">
+        <label id="user_name" style="position:relative;left:-115px;top:-40px;color:#FFF"> Hi ,Player </label>
+        </div>
+	</div>
+<div align="right"></div>
+<div>
+<div style="height:50px;" id="top_div" onMouseMove="mousemove('top div')">
+&nbsp;</div>
+
+
+<div  style="background-color:#E7EBF2;height:700;">
+<div style="float:left;width:65px;height:360px;" onMouseMove="mousemove('left div')" id="left_div">
+&nbsp;
+ </div>
+ <div>
+ <label style="font-size:24px;position:relative ; left: +50px; color:#004080;"  > Time left </label>
+ <label id="timer_div" style="font:'Trebuchet MS', Arial, Helvetica, sans-serif; font-size:36px; color:#0080FF;position:relative ; left: +180px;"></label>
+ </div>
+ 
+ 
+</div>
+
+
+<div style="float:left;width:auto" >
+ <table onMouseUp="mouseup()" style="border-top-left-radius:10px ;border-top-right-radius:10px; border-bottom-left-radius: 10px; border-bottom-right-radius:10px ; box-shadow:5px 5px 10px #999" width="360" height="360"  border="1" align="center" cellpadding="5" class="otable" id= "game">
+   <tr id="tr1">
+    <th> <button id="11" class="buttoncss" onmousedown ="mousedown('11')" onMouseUp ="mouseup('11')" onMouseOver="mouseover('11')" type="button"></button> </th>
+     <th>  <button id="12"  class="buttoncss" onmousedown ="mousedown('12')" onMouseUp ="mouseup('12')" onMouseOver="mouseover('12')" type="button"></button> </th>
+     <th>  <button id="13"  class="buttoncss" onmousedown ="mousedown('13')" onMouseUp ="mouseup('13')" onMouseOver="mouseover('13')" type="button"></button> </th>
+     <th>  <button id="14"  class="buttoncss" onmousedown ="mousedown('14')" onMouseUp ="mouseup('14')" onMouseOver="mouseover('14')" type="button"></button></th>
+   </tr>
+   <tr>
+     <th>  <button id="21"  class="buttoncss" onmousedown ="mousedown('21')" onMouseUp ="mouseup('21')" onMouseOver="mouseover('21')" type="button"></button></th>
+     <th>  <button id="22"  class="buttoncss" onmousedown ="mousedown('22')" onMouseUp ="mouseup('22')" onMouseOver="mouseover('22')" type="button"></button></th>
+     <th>  <button id="23"  class="buttoncss" onmousedown ="mousedown('23')" onMouseUp ="mouseup('23')" onMouseOver="mouseover('23')" type="button"></button></th>
+     <th>  <button id="24"  class="buttoncss" onmousedown ="mousedown('24')" onMouseUp ="mouseup('24')" onMouseOver="mouseover('24')" type="button"></button></th>
+   </tr>
+   <tr>
+     <th>  <button id="31"  class="buttoncss" onmousedown ="mousedown('31')" onMouseUp ="mouseup('31')" onMouseOver="mouseover('31')" type="button"></button></th>
+     <th>  <button id="32"  class="buttoncss" onmousedown ="mousedown('32')" onMouseUp ="mouseup('32')" onMouseOver="mouseover('32')" type="button"></button></th>
+     <th>  <button id="33"  class="buttoncss" onmousedown ="mousedown('33')" onMouseUp ="mouseup('33')" onMouseOver="mouseover('33')" type="button"></button></th>
+     <th>  <button id="34"  class="buttoncss" onmousedown ="mousedown('34')" onMouseUp ="mouseup('34')" onMouseOver="mouseover('34')" type="button"></button></th>
+   </tr>
+   <tr>
+     <th>  <button id="41"  class="buttoncss" onmousedown ="mousedown('41')" onMouseUp ="mouseup('41')" onMouseOver="mouseover('41')" type="button"></button></th>
+     <th>  <button id="42"  class="buttoncss" onmousedown ="mousedown('42')" onMouseUp ="mouseup('42')" onMouseOver="mouseover('42')" type="button"></button></th>
+     <th>  <button id="43"  class="buttoncss" onmousedown ="mousedown('43')" onMouseUp ="mouseup('43')" onMouseOver="mouseover('43')" type="button"></button></th>
+     <th>  <button id="44"  class="buttoncss" onmousedown ="mousedown('44')" onMouseUp ="mouseup('44')" onMouseOver="mouseover('44')" type="button"></button></th>
+   </tr>
+ </table>
+</div>
+<div style="float:left;width:105px;"  onMouseMove="mousemove('right div')"  id="right_div" > 
+&nbsp;
+</div>
+<div style="float:left;position:relative; top:20px;font-size:22px"; >
+<br><br>
+<label style="color:#7BA6B4;"> Found Words </label> 
+<ul id="foundwords_div" style="height:350px;width:180px;overflow-x: scroll;background: #FEF;position:relative; top:-20px;">
+<!--<LH>Found Words</LH>-->
+</ul>
+</div>
+
+
+
+
+
+
+
+
+<div style="float: left;" ><br/><br/><br/>
+<label style="font-size:48px;position:relative ; left: +100px; color:#7BA6B4;"  > Score </label>
+<br/>
+<label id="score_div" style="font:'Trebuchet MS', Arial, Helvetica, sans-serif; font-size:36px; color:#7BA6B4;position:relative ; left: +120px;"></label>
+</div>
+
+
+
+
+
+
+
+
+</div>
+<div style="height:50px;" onMouseMove="mousemove('bottom div')" id="bottom_div">
+&nbsp;
+</div>
+
+</body>
+</html>

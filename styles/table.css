@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+
+.otable {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #ADD8E6;
+	background-color: #ADD8E6;
+	border-top-color: #ADD8E6;
+	border-right-color: #ADD8E6;
+	border-bottom-color: #ADD8E6;
+	border-left-color: #ADD8E6;
+}
+.buttoncss {
+/*	height:50px;
+	width:50px;*/
+	font-size: 32px;
+	font-weight: normal;
+	background-color: #7BA6B4;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	padding-right: 20px;
+	color: #FFF;
+	cursor: default;
+	border-top-color: #9C3;
+	border-right-color: #9C3;
+	border-left-color: #9c3;
+	border-bottom-color: #9c3;
+	border-style: hidden;
+}
+th {
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFF;
+	border-right-color: #FFF;
+	border-bottom-color: #FFF;
+	border-left-color: #FFF;
+	padding: 10px;
+	background-color: #FFF;
+}
+
+.buttoncssmod {
+	font-size: 32px;
+	font-weight: normal;
+	background-color:#999;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	padding-right: 20px;
+	color: #FFF;
+	cursor: default;
+	border-top-color: #9C3;
+	border-right-color: #9C3;
+	border-left-color: #9c3;
+	border-bottom-color: #9c3;
+	border-style: hidden;
+	<!--text-decoration: line-through;-->
+}
+.buttoncsscorrect {
+	font-size: 34px;
+	font-weight: normal;
+	background-color:#0080FF;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	padding-right: 20px;
+	color: #FFF;
+	cursor: default;
+	border-top-color: #9C3;
+	border-right-color: #9C3;
+	border-left-color: #9c3;
+	border-bottom-color: #9c3;
+	border-style: hidden;
+	<!--text-decoration: line-through;-->
+}
+
+.buttoncsswrong {
+	font-size: 34px;
+	font-weight: normal;
+	background-color:#C80000;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	padding-right: 20px;
+	color: #FFF;
+	cursor: default;
+	border-top-color: #9C3;
+	border-right-color: #9C3;
+	border-left-color: #9c3;
+	border-bottom-color: #9c3;
+	border-style: hidden;
+	<!--text-decoration: line-through;-->
+}
+.buttoncssexisting {
+	font-size: 34px;
+	font-weight: normal;
+	background-color:#FFFF80;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	padding-right: 20px;
+	color:#000;
+	cursor: default;
+	border-top-color: #9C3;
+	border-right-color: #9C3;
+	border-left-color: #9c3;
+	border-bottom-color: #9c3;
+	border-style: hidden;
+	<!--text-decoration: line-through;-->
+}
+li 
+{
+	font-style: normal;
+	font-variant: small-caps;	
+}
