@@ -23,7 +23,7 @@
     }
 	$list=array('E','E','E','E','E','E','T','T','T','A','A','A','O','O','O','I','I','I','N','N','N','S','S','S','S','R','R','R','H','H','L','L','D','D','D','D','C','C','U','U','M','M','F','P','G','W','Y','B','V','K','X','J','Q','Z');
 $vow=array('A','E','I','O','U');
-$con=array('B','C','D','F','G','H','J','K','L','M','N','P','Q','R','S','T','V','W','X','Y','Z');
+$con=array('B','C','D','F','G','H','J','K','L','M','N','P','R','S','T','V','W','Y','Z','S','S');
 /*$sql1 = "CREATE TABLE games(id INT NOT NULL AUTO_INCREMENT, 
 			PRIMARY KEY(id),seq VARCHAR(16))";
 $conn->query($sql1);*/
