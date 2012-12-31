@@ -47,10 +47,10 @@ $conn->query($sql3);
 		{
 			for($i=0; $i <4;$i++)
 		{
-			$puzzle .= $con[mt_rand()%21];
+			$puzzle .= $list[mt_rand()%54];
 			$puzzle .= $vow[mt_rand()%5];
 			$puzzle .= $con[mt_rand()%21];
-			$puzzle .= $list[mt_rand()%54];
+			$puzzle .= $vow[mt_rand()%5];
 		}
 		}
 		else
