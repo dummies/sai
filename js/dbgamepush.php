@@ -59,8 +59,8 @@ $conn->query($sql3);
 		{
 			$puzzle .= $vow[mt_rand()%5];
 			$puzzle .= $con[mt_rand()%21];
+			$puzzle .= $vow[mt_rand()%5];
 			$puzzle .= $list[mt_rand()%54];
-			$puzzle .= $con[mt_rand()%21];
 		}
 		}
 		
